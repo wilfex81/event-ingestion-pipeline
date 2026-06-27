@@ -11,7 +11,7 @@ def extract_payload(filepath):
     # Since the payload is a JSON string, we need to convert it to a Python dictionary using json.loads()
     # Mutate the record in place keeping the rest of the record intact
     for record in data:
-        record['payload'] = json.loads(record['payload'])
+        record['Payload'] = json.loads(record['Payload'])
 
     return data
     

@@ -1,0 +1,5 @@
+"Provider","OfferId","MinGlobal","MinRecommended","MaxRecommended","DifferenceMinRecommendMinTheory","EnqueuedTimeSP"
+"ApplyDynamicPriceRange","a6611d55-9624-4381-8cdd-323ee3689241",85.0,87.2,97.65,2.2,"05/09/2021"
+"ApplyDynamicPriceRange","b7722e66-1735-5492-9dee-434ff4790352",120.0,125.0,140.0,5.0,"05/09/2021"
+"ApplyDynamicPriceRange","c8833f77-2846-6503-afef-545gg5801463",200.0,210.0,235.0,10.0,"06/09/2021"
+"ApplyDynamicPriceRange","d9944g88-3957-7614-b0f0-656hh6912574",50.0,52.5,60.0,2.5,"06/09/2021"
