@@ -1,0 +1,52 @@
+[
+  {
+    "EnqueuedTimeUtc": "2021-09-05 08:04:08 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"a6611d55-9624-4381-8cdd-323ee3689241\",\"algorithmOutput\":{\"min_global\":85.0,\"min_recommended\":87.2,\"max_recommended\":97.65,\"differenceMinRecommendMinTheory\":2.2}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 11:30:00 UTC",
+    "EventName": "DynamicPrice_Option",
+    "Payload": "{\"provider\":\"DynamicPriceProvider\",\"offerId\":\"a6611d55-9624-4381-8cdd-323ee3689241\",\"uniqueOptionId\":\"opt-001\",\"bestPrice\":89.5}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-05 14:00:00 UTC",
+    "EventName": "CuratedOffer_Result",
+    "Payload": "{\"curationProvider\":\"CurationEngine\",\"offerId\":\"a6611d55-9624-4381-8cdd-323ee3689241\",\"options\":[{\"dealerId\":\"dealer-001\",\"uniqueOptionId\":\"opt-001\",\"optionId\":\"option-A\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"30min\",\"chamaScore\":92.5,\"productBrand\":\"BrandX\",\"isWinner\":true,\"minimumPrice\":85.0,\"maximumPrice\":97.65,\"dynamicPrice\":89.5,\"finalPrice\":89.5,\"defeatPrimaryReason\":\"\",\"defeatReasons\":\"\"},{\"dealerId\":\"dealer-002\",\"uniqueOptionId\":\"opt-002\",\"optionId\":\"option-B\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"45min\",\"chamaScore\":80.0,\"productBrand\":\"BrandY\",\"isWinner\":false,\"minimumPrice\":90.0,\"maximumPrice\":105.0,\"dynamicPrice\":95.0,\"finalPrice\":95.0,\"defeatPrimaryReason\":\"PRICE\",\"defeatReasons\":\"PRICE,SCORE\"}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-06 02:15:00 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"b7722e66-1735-5492-9dee-434ff4790352\",\"algorithmOutput\":{\"min_global\":120.0,\"min_recommended\":125.0,\"max_recommended\":140.0,\"differenceMinRecommendMinTheory\":5.0}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-06 03:45:00 UTC",
+    "EventName": "DynamicPrice_Option",
+    "Payload": "{\"provider\":\"DynamicPriceProvider\",\"offerId\":\"b7722e66-1735-5492-9dee-434ff4790352\",\"uniqueOptionId\":\"opt-003\",\"bestPrice\":127.0}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-06 04:00:00 UTC",
+    "EventName": "CuratedOffer_Result",
+    "Payload": "{\"curationProvider\":\"CurationEngine\",\"offerId\":\"b7722e66-1735-5492-9dee-434ff4790352\",\"options\":[{\"dealerId\":\"dealer-003\",\"uniqueOptionId\":\"opt-003\",\"optionId\":\"option-C\",\"isMobileDealer\":true,\"isOpen\":false,\"eta\":\"60min\",\"chamaScore\":75.0,\"productBrand\":\"BrandZ\",\"isWinner\":true,\"minimumPrice\":120.0,\"maximumPrice\":140.0,\"dynamicPrice\":127.0,\"finalPrice\":127.0,\"defeatPrimaryReason\":\"\",\"defeatReasons\":\"\"}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-07 00:05:00 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"c8833f77-2846-6503-afef-545gg5801463\",\"algorithmOutput\":{\"min_global\":200.0,\"min_recommended\":210.0,\"max_recommended\":235.0,\"differenceMinRecommendMinTheory\":10.0}}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-07 01:00:00 UTC",
+    "EventName": "DynamicPrice_Option",
+    "Payload": "{\"provider\":\"DynamicPriceProvider\",\"offerId\":\"c8833f77-2846-6503-afef-545gg5801463\",\"uniqueOptionId\":\"opt-004\",\"bestPrice\":212.0}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-07 01:30:00 UTC",
+    "EventName": "CuratedOffer_Result",
+    "Payload": "{\"curationProvider\":\"CurationEngine\",\"offerId\":\"c8833f77-2846-6503-afef-545gg5801463\",\"options\":[{\"dealerId\":\"dealer-004\",\"uniqueOptionId\":\"opt-004\",\"optionId\":\"option-D\",\"isMobileDealer\":false,\"isOpen\":true,\"eta\":\"20min\",\"chamaScore\":88.0,\"productBrand\":\"BrandX\",\"isWinner\":true,\"minimumPrice\":200.0,\"maximumPrice\":235.0,\"dynamicPrice\":212.0,\"finalPrice\":212.0,\"defeatPrimaryReason\":\"\",\"defeatReasons\":\"\"},{\"dealerId\":\"dealer-005\",\"uniqueOptionId\":\"opt-005\",\"optionId\":\"option-E\",\"isMobileDealer\":true,\"isOpen\":true,\"eta\":\"35min\",\"chamaScore\":70.0,\"productBrand\":\"BrandW\",\"isWinner\":false,\"minimumPrice\":215.0,\"maximumPrice\":240.0,\"dynamicPrice\":220.0,\"finalPrice\":220.0,\"defeatPrimaryReason\":\"ETA\",\"defeatReasons\":\"ETA,SCORE\"},{\"dealerId\":\"dealer-006\",\"uniqueOptionId\":\"opt-006\",\"optionId\":\"option-F\",\"isMobileDealer\":false,\"isOpen\":false,\"eta\":\"90min\",\"chamaScore\":55.0,\"productBrand\":\"BrandV\",\"isWinner\":false,\"minimumPrice\":230.0,\"maximumPrice\":260.0,\"dynamicPrice\":245.0,\"finalPrice\":245.0,\"defeatPrimaryReason\":\"CLOSED\",\"defeatReasons\":\"CLOSED,PRICE,SCORE\"}]}"
+  },
+  {
+    "EnqueuedTimeUtc": "2021-09-07 02:59:00 UTC",
+    "EventName": "DynamicPrice_Result",
+    "Payload": "{\"provider\":\"ApplyDynamicPriceRange\",\"offerId\":\"d9944g88-3957-7614-b0f0-656hh6912574\",\"algorithmOutput\":{\"min_global\":50.0,\"min_recommended\":52.5,\"max_recommended\":60.0,\"differenceMinRecommendMinTheory\":2.5}}"
+  }
+]
