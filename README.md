@@ -83,6 +83,8 @@ Three things happen in the transformation step:
 
 Three CSV files are written using `csv.QUOTE_NONNUMERIC`, which automatically quotes string fields and leaves numeric fields unquoted — matching the output specification without any manual field-by-field logic.
 
+Note: the project includes two loader implementations. One uses Python's built-in `csv` module with `DictWriter`, and the other uses `pandas` with `DataFrame.to_csv()`. Both produce identical output, but the `pandas` loader is more concise and scales better when you need to apply transformations at load time (for example, filtering rows or reordering columns).
+
 ## Practicalities
 
 Make sure the solution reflects the transformation logic clearly; structure matters more than the final CSV files.
